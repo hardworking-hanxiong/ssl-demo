@@ -1,0 +1,21 @@
+allprojects {
+
+    apply plugin: 'java'
+
+    group 'study'
+    version '1.0'
+
+    sourceCompatibility = 1.8
+
+    repositories {
+        maven { url = 'http://maven.aliyun.com/nexus/content/groups/public/' }
+        mavenCentral()
+    }
+
+    tasks.withType(JavaCompile) {
+        options.encoding = "UTF-8"
+    }
+}
+
+
+

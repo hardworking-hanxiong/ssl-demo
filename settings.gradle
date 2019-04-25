@@ -1,0 +1,6 @@
+rootProject.name = 'ssl-demo'
+
+include 'ssl-server'
+include 'ssl-client'
+include 'jks-demo'
+
